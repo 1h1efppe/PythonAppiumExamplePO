@@ -36,13 +36,11 @@ $ pipenv run py.test -s --os=android --os_version=10 test_test.py
 
 
 # If you want to have allure report and logs
-$ pipenv run py.test --log-cli-level=INFO -s --reruns 2 --alluredir=/path/to/desired/alluredir --os=android --os_version=10 test_test.py
+$ pipenv run py.test --log-cli-level=INFO -s --alluredir=/path/to/desired/alluredir --os=android --os_version=10 test_test.py
 
 # To get allure report
 $ allure generate --clean allure/ -o allure/reports && allure open allure/reports
 
-# To run tests with reruns
-$ pipenv run py.test --log-cli-level=INFO -s -reruns=3 --os=android --os_version=10 test_test.py
 
 # If for some reason you don't like Allure, you can use Pytest built-in reports, to do this - add --html=report.html
 pipenv run py.test --log-cli-level=INFO -s --reruns 2 --html=report.html --os=android --os_version=10 test_test.py
