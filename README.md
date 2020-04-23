@@ -18,10 +18,10 @@
 To clone and run this application, you'll need [Git](https://git-scm.com), [Pipenv](https://github.com/pypa/pipenv), [Appium](https://appium.io), and Android/iOS simulator or real device.
 ```bash
 # Clone this repository
-$ git clone https://github.com/betaraybill/PythonExamplePO.git
+$ git clone https://github.com/betaraybill/PythonAppiumExamplePO.git
 
 # Go into the repository
-$ cd PythonExamplePO
+$ cd PythonAppiumExamplePO
 
 # Install dependencies
 $ pipenv install
